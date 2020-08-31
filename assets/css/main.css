@@ -2378,7 +2378,7 @@ input, select, textarea {
 	}
 
 	table {
-		table-layout: auto;
+		table-layout: fixed;
 		width: 100%;
 		margin: 0 0 2em 0;
 		width: 100%;
