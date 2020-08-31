@@ -2378,8 +2378,6 @@ input, select, textarea {
 	}
 
 	table {
-		table-layout: fixed;
-		width: 100%;
 		margin: 0 0 2em 0;
 		width: 100%;
 	}
@@ -2397,6 +2395,16 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 		}
+	
+		table td:nth-child(1) {
+			width: 20%;
+}
+		table td:nth-child(2) {
+			width:70%
+}
+		table td:nth-child(3) {
+			width:10%
+}
 
 		table th {
 			font-size: 0.9em;
