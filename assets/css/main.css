@@ -2525,7 +2525,7 @@ input, select, textarea {
 		input[type="button"]:visited,
 		button:active,
 		.button:active {
-			background-color: #99e1e5);
+			background-color: #585858);
 		}
 
 		input[type="submit"].small,
@@ -2575,7 +2575,7 @@ input, select, textarea {
 			input[type="button"].primary:visited,
 			button.primary:visited,
 			.button.primary:visited {
-				background-color: #99e1e5;
+				background-color: #585858;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
