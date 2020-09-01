@@ -2682,6 +2682,7 @@ input, select, textarea {
 				border-radius: 4px;
 				border-bottom: 0;
 				color: #585858;
+				-webkit-text-storke: 1px #585858;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
