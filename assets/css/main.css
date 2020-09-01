@@ -153,6 +153,10 @@ input, select, textarea {
 			border-bottom-color: transparent;
 			color: #f2c6b4 !important;
 		}
+		
+		a:visited{
+			color: #99e1e5;
+}
 
 	strong, b {
 		font-weight: 900;
@@ -2516,6 +2520,14 @@ input, select, textarea {
 			background-color: rgba(242, 132, 158, 0.1);
 		}
 
+		input[type="submit"]:visited,
+		input[type="reset"]:visited,
+		input[type="button"]:visited,
+		button:active,
+		.button:active {
+			background-color: #99e1e5);
+		}
+
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
@@ -2556,6 +2568,14 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:active {
 				background-color: #ee5f81;
+			}
+
+			input[type="submit"].primary:visited,
+			input[type="reset"].primary:visited,
+			input[type="button"].primary:visited,
+			button.primary:visited,
+			.button.primary:visited {
+				background-color: #99e1e5;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
