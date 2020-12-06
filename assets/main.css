@@ -1,4 +1,8 @@
-
+:root {
+	--bg-color: #ffffff;
+	--txt-color: #000000;
+	--hosa-red: #841619;
+}
 
 h1, h2, h3 {
 	font-family: 'Bebas Neue', cursive;
@@ -17,8 +21,26 @@ h3 {
 }
 
 body {
-	margin: 5% 5% 5% 5%;
+	background-color: var(--bg-color);
+	margin: 3.5% 3.5% 3.5% 3.5%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
 
+.home-buttons {
+        display: flex;
+}
+
+.button-home {
+        background-color: var(--txt-color);
+        color: var(--hosa-red);
+        flex: 1;
+        list-style-type: none;
+        margin: 0.5% 0.5% 0.5% 0.5%;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+	text-align: center;
+}
+
+a {
+	color: var(--hosa-red);
+}
