@@ -25,22 +25,56 @@ body {
 	margin: 3.5% 3.5% 3.5% 3.5%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	line-height: 1.5;
+}
+
+a {
+	color: var(--hosa-red);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--txt-color);
+}
+
+.menu, .menu a {
+	list-style-type: none;
+	display: flex;
+	margin: 0 -2.5% 0 -2.5%;
+	padding: 0 2.5% 0 2.5%;
+	background-color: var(--hosa-red);
+	color: var(--bg-color) !important;	
+	text-align: center;
+}
+
+.menu-item, .menu-item a {
+	flex: 1;
+	text-align: center;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+	flex-basis: auto;
 }
 
 .home-buttons {
         display: flex;
 }
 
-.button-home {
+.button-home, .button-home a:hover {
         background-color: var(--txt-color);
         color: var(--hosa-red);
-        flex: 1;
         list-style-type: none;
-        margin: 0.5% 0.5% 0.5% 0.5%;
-        padding: 0.5% 0.5% 0.5% 0.5%;
+	flex: 1;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+	padding: 1% 1% 1% 1%;
 	text-align: center;
+	width: 25%;
+	transition: all 0.4s;
 }
 
-a {
-	color: var(--hosa-red);
+.button-home:hover {
+	transform: scale(1.05);
 }
+
+section {
+	display: flex;
+}	
