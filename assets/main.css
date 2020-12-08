@@ -133,3 +133,17 @@ section {
 	right: 4.5%;
 	color: var(--primary-col);
 }
+
+table {
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+td {
+	border-collapse: collapse;
+	border-bottom: solid 2px var(--primary-col);
+}
+
+tr {
+	width: auto;
+}
