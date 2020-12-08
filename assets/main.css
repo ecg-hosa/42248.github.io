@@ -76,7 +76,7 @@ li {
 	text-decoration: none;
 	color: #ffffff;
 	display: block;
-	transition: 0.4s;
+	transition: 0.3s;
 }
 
 .menu-items {
@@ -87,7 +87,7 @@ li {
 }
 
 .menu-items a:hover {
-	font-size: 110%;
+	font-size: 120%;
 }
 
 .home-buttons {

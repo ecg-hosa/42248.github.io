@@ -7,6 +7,4 @@
 ## Features to include:
 - code (in-line, block)
 - blockquote
-- lists (ordered, unordered)
-- tables
 - buttons
