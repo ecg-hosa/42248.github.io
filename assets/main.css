@@ -6,6 +6,7 @@
 	--bg-color: #ffffff;
 	--txt-color: #000000;
 	--primary-col: #a51b1f;
+	--primary-op: #a51b1fe6;
 }
 
 img {
@@ -23,7 +24,7 @@ h1, h2, header {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 40px;
 }
 
 h2, header {
@@ -57,15 +58,36 @@ li {
 	list-style-type: square;
 }
 
-.menu, .menu a {
-	font-family: 'Archivo Narrow', sans-serif;
-	list-style-type: none;
-/*	display: flex;
-	flex-wrap: wrap;
-*/	margin: 0 -2.5% 0 -2.5%;
-	padding: 0 50% 0 0;
-	background-color: var(--primary-col);
-	color: var(--bg-color) !important;	
+.overlay {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: var(--primary-op);
+	overflow-x: hidden;
+	transition: all 0.4s;
+	color: var(--bg-color);
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	transition: 0.4s;
+}
+
+.menu-items {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: var(--bg-color) !important;
+}
+
+.menu-items a:hover {
+	font-size: 110%;
 }
 
 .home-buttons {
@@ -73,8 +95,9 @@ li {
 }
 
 .button-home, .button-home a {
-        background-color: var(--txt-color);
-        color: var(--primary-col) !important;
+        border-style: solid;
+	border-color: var(--txt-color);
+	color: var(--primary-col) !important;
         list-style-type: none;
 	flex: 1;
 	margin: 0.5% 0.5% 0.5% 0.5%;
@@ -87,6 +110,8 @@ li {
 
 .button-home:hover {
 	transform: scale(1.05);
+	color: var(--txt-color) !important;
+	border-color: var(--primary-col);
 }
 
 section {
@@ -98,4 +123,13 @@ section {
 	width: auto;
 	flex-basis: auto;
 	flex: 1 1 50%;
+}
+
+.menu-button {
+	cursor: pointer;
+	font-size: 250%;
+	position: absolute;
+	top: -4.5%;
+	right: 4.5%;
+	color: var(--primary-col);
 }
