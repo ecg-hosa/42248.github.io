@@ -1,9 +1,10 @@
-# ECG-HOSA.GITHUB.IO
+# ECG HOSA Website
 
-This website was based off of the Phantom template on [HTML 5UP!](https://html5up.net/)
+## Gif links
+- [victory](https://giphy.com/gifs/thinkproducts-lnyPptAfGwHeTdoQDk) used in achievements.html
+- [note-taking](https://giphy.com/gifs/bully-bull-terrier-bullterrier-dQpUkK59l5Imxsh8jN) used in resources.html
 
-
-(pls be proud of me bc i spent so much time figuring out how to work this thing)
-
-https://icons8.com/icon/958/stethoscope
-https://unsplash.com/photos/hIgeoQjS_iE
+## Features to include:
+- code (in-line, block)
+- blockquote
+- buttons
